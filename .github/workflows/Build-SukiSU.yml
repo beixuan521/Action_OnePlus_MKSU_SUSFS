@@ -76,10 +76,6 @@ on:
          - "6.6"
       BUILD_METHOD:
         type: choice
-     description: "修改内核名称"
-        required: true
-        default: '-android12-9-o-北轩'
-      kernelsu_variant:
         description: "编译方式"
         required: true
         default: gki
